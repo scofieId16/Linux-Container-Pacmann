@@ -159,6 +159,8 @@ COPY public.users (id, first_name, last_name, email, password) FROM stdin;
 3	Ahmad	Fahruri	ahmad411@gmail.com	4111037
 4	Ida	Farida	ida411@gmail.com	4111038
 5	Early	Irham	early511@gmail.com	5111026
+6	isal	ahmad	isal511@gmail.com	511241
+7	Faisal	Ahmad	faisal@gmail.com	511638
 \.
 
 
@@ -166,7 +168,7 @@ COPY public.users (id, first_name, last_name, email, password) FROM stdin;
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.users_id_seq', 5, true);
+SELECT pg_catalog.setval('public.users_id_seq', 7, true);
 
 
 --
