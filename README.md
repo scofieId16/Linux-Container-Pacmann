@@ -134,4 +134,4 @@ Membuat script restore.sh
 ### Langkah Kedua
 Melakukan restore dengan memanggil skrip restore dengan nama "restore.sh". Skrip ini dibuat untuk mengembalikan (restore) data PostgreSQL dari file SQL.
 
-![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/90daf6886f8f7577892aaa5b91679ddcc8cdf205/pictures/restore2.png)
+![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/45fb2c27a6784c6b3906c8e71740577eefd8f800/pictures/restore2.png)
