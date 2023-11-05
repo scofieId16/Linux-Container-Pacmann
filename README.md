@@ -12,7 +12,7 @@ Membuat file didalam direktori flask. Dockerfile ini akan berisi serangkaian per
 ![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/334035cd6623d1c431d7d233dca7e8a91dcc6eb9/pictures/docker.png)
 
 ### Langkah Kedua
-Melakukan pull image. Anda perlu menentukan image yang akan digunakan atau diambil dari registry Docker Hub. Image ini akan menjadi dasar (base) untuk membangun image yang akan Anda buat.
+Melakukan pull image. Anda perlu menentukan image yang akan digunakan atau diambil dari registry Docker Hub. Image ini akan menjadi dasar (base) untuk membangun image yang akan Anda buat. Projek ini menggunakan image versi 3.8
 
 ![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/263ace3f2bd9518b06abe40519716acd46927cea/pictures/image.png)
 
