@@ -112,5 +112,26 @@ Kemudian, bisa di cek lagi koneksi database dan flasknya seperti yang dilakukan 
 
 ![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/5c12f447119c39022d8ba7d38d563c8560fdcc3b/pictures/dbeaver2.png)
 
+## Create Backup Script and Setting Scheduling Backup Using Crontab
+### Langkah Pertama
+Membuat script backup.sh
 
+![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/90daf6886f8f7577892aaa5b91679ddcc8cdf205/pictures/backup.png)
 
+### Langkah Kedua
+Setup Crontab
+
+![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/90daf6886f8f7577892aaa5b91679ddcc8cdf205/pictures/crontab.png)
+
+Dengan mengikuti langkah-langkah di atas, Anda akan memiliki script backup.sh yang dapat melakukan backup database PostgreSQL dan penjadwalan backup menggunakan crontab di host.
+
+## Create Restore Script
+### Langkah Pertama
+Membuat script restore.sh
+
+![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/90daf6886f8f7577892aaa5b91679ddcc8cdf205/pictures/restore.png)
+
+### Langkah Kedua
+Melakukan restore dengan memanggil skrip restore dengan nama "restore.sh". Skrip ini dibuat untuk mengembalikan (restore) data PostgreSQL dari file SQL.
+
+![image](https://github.com/scofieId16/Linux-Container-Pacmann/blob/90daf6886f8f7577892aaa5b91679ddcc8cdf205/pictures/restore2.png)
